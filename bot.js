@@ -12,7 +12,6 @@ setInterval(() => {
 
 const Discord = require('discord.js');
 const Jimp = require('jimp');
-const antispam = require("discord-anti-spam-tr");
 const client = new Discord.Client();
 const ayarlar = require('./ayarlar.json');
 const chalk = require('chalk');
