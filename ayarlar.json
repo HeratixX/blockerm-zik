@@ -1,7 +1,7 @@
 {
-  "prefix": "*",
-  "sahip": "317974144253689856",
-  "sahip2": "456526118929956866",
-  "token": "NTg3MjkwMzcxOTIzMzc4MjA2.XP0ayw.33TFnAgKjKq-siImWkUvPohd5AI",
+  "prefix": "botprefix",
+  "sahip": "sahip1id",
+  "sahip2": "sahipid2",
+  "token": "bottoken",
   "GOOGLE_API_KEY": "AIzaSyCM0yrNbbu3yx-ZQ-z2su3Y2Lc-liyEJUQ"
 }
