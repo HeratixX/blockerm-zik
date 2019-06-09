@@ -1,4 +1,4 @@
-const http = require('http');
+﻿const http = require('http');
 const express = require('express');
 const app = express();
 app.get("/", (request, response) => {
@@ -205,7 +205,11 @@ client.on('message', async msg => {
             .setDescription(':warning: **| Lütfen öncelikle sesli bir kanala katılınız.**'));
         if (!serverQueue) return msg.channel.sendEmbed(new Discord.RichEmbed()
             .setColor('RED')
-            .setTitle(':warning:| **Hiç
+            .setTitle(':warning:| **HiçBir Müzik Çalmamakta**'));                                              
+		msg.channel.send(`:stop_button: **${serverQueue.songs[0].title}** Adlı Müzik Durduruldu`);
+		serverQueue.songs = [];
+		serverQueue.connection.dispatcher.end('**Müzik Bitti**');
+		return undefined;               
 	} else if (command === 'çalan') {
 		if (!serverQueue) return msg.channel.sendEmbed(new Discord.RichEmbed()
     .setTitle(":warning: | **Çalan Müzik Bulunmamakta**")
