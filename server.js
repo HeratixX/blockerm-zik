@@ -20,7 +20,7 @@ const ytdl = require('ytdl-core')
 
 const client = new Client({ disableEveryone: true })
 
-const youtube = new YouTube('AIzaSyCM0yrNbbu3yx-ZQ-z2su3Y2Lc-liyEJUQ')
+const youtube = new YouTube('AIzaSyCNIIka2mD0054826Vne8iOkgddCRYclMA')
 
 const queue = new Map()
 const gh = require('gitinfo')
