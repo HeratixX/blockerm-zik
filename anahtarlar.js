@@ -1,3 +1,3 @@
 {
-"GOOGLE_API_KEY": "AIzaSyCM0yrNbbu3yx-ZQ-z2su3Y2Lc-liyEJUQ"
+"GOOGLE_API_KEY": "AIzaSyCNIIka2mD0054826Vne8iOkgddCRYclMA"
 }
